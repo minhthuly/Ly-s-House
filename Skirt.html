@@ -1,0 +1,656 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/templateshop.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ly's House Shop</title>
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="icofont.css">
+<link rel="stylesheet" href="css/main-style.css">
+<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,600;1,400;1,600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/photo-viewer.css">
+<link rel="shortcut icon" type="image/png" href="images/Icons/favicon.png"/>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+	</head>
+	
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container"> 
+			<a href="Index.html" class="navbar-brand me-3">
+				<img src="images/Logo/Logo%20Shop.png" alt="" class="w-100"></a>
+			<button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="menu">
+                  <ul class="navbar-nav mx-auto">
+                       <li class="nav-item"><a href="Index.html" class="nav-link">HOME</a></li>
+                       <li class="nav-item"><a href="About-us.html" class="nav-link">ABOUT US</a></li>
+					   <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SHOP</a>
+                            <div class="dropdown-menu menu-con bg-secondary">
+								<div class="row">
+									<div class="text-center">
+										<a href="Women's%20shirt.html" class="dropdown-item">Women's shirt</a> 
+										<a href="Women's%20trouser.html" class="dropdown-item">Women's trouser</a>
+										<a href="Dress.html" class="dropdown-item">Dress</a> 
+										<a href="Skirt.html" class="dropdown-item">Skirt</a> 
+									</div>
+								</div>
+						   </div>
+					  </li>
+        <!--het menu-con-->
+		  
+        <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ACCESSORIES</a>
+                            <div class="dropdown-menu menu-con-phukien bg-secondary">
+								<div class="row">
+									<div class="text-center">
+										<a href="Jewels.html" class="dropdown-item">Jewels</a> 
+										<a href="Handbag.html" class="dropdown-item">Handbag</a> 
+										<a href="Shoes.html" class="dropdown-item">Shoes</a> 
+										<a href="Glasses.html" class="dropdown-item">Glasses</a> 
+									</div>
+								</div>
+						   </div>
+					  </li>
+		<!--het menu-con-->
+					  
+        <li class="nav-item"><a href="Blogs.html" class="nav-link">BLOGS</a></li>
+        <li class="nav-item"><a href="Contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+      <div class="navbar-text ms-3"> 
+		  <a href="#"><i class="fas fa-search"></i></a> 
+		  <a href="Login.html" class="mx-3"><i class="fas fa-user"></i></a> 
+		  <a href="#"><i class="fas fa-cart-shopping"></i></a> 
+	  </div>
+    </div>
+  </div>
+</nav>
+<!--het nav-->
+	
+<!-- InstanceBeginRepeat name="an-hien" --><!-- InstanceBeginRepeatEntry -->
+<div class="tieudetrang"> 
+	<!-- InstanceBeginEditable name="ten-trang" -->
+	<div class="container text-start">
+		<h1 class="f-homework display-1">Home I Shop I Skirt</h1>
+	</div>
+<!-- InstanceEndEditable --> 
+	</div>
+<!-- InstanceEndRepeatEntry --><!-- InstanceEndRepeat -->
+	
+<div class="container mt-5">
+  <div class="row">
+	  <div class="dropdown mt-4 mb-4 text-start text-md-end sortby">
+		  <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown">Default sorting</button>
+		  <div class="dropdown-menu py-1">
+			  <div class="row">
+				  <div class="sortby-list py-2">
+					  <a href="#" class="dropdown-item">Sort by popularity</a>
+					  <a href="#" class="dropdown-item">Sort by average rating</a>
+					  <a href="#" class="dropdown-item">Sort by latest</a>
+					  <a href="#" class="dropdown-item">Sort by price: low to high</a>
+					  <a href="#" class="dropdown-item">Sort by price: high to low</a>
+				  </div>
+			  </div>
+		  </div>
+	  </div>  
+
+    <aside class="col-md-3">
+		<div class="topnav">
+		  <div class="search-container">
+               <input type="text" placeholder="Search....." name="search">
+               <!--<button type="submit"><i class="fa fa-search"></i></button>-->
+		  </div>
+		</div>
+	<div class="my-4">
+        <h5 class="text-dark fw-bold fs-5 text-start">Filter by Price</h5>
+		<div class="slidecontainer pb-2">
+			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+		</div>
+		<p class="text-dark fw-normal text-start">Price: $40 — $500</p>
+		<div class="text-center">
+		<button type="button" class="text-white btn-filter">FILTER</button>
+		</div>
+      </div>
+		
+	<!-- InstanceBeginEditable name="filter-cate" -->
+	<div class="my-5">
+	  <h5 class="text-dark py-2 fw-bold fs-5 text-start">Filter by Category</h5>
+	  <ul class="nav flex-column">
+	    <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Women's shirt</a></li>
+	    <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Women's trouser</a></li>
+	    <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Dress</a></li>
+	    <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Skirt</a></li>
+      </ul>
+    </div>
+	<!-- InstanceEndEditable -->
+		
+	<div class="my-5">
+      <h5 class="text-dark py-2 fw-bold fs-5 text-start">Filter by Color</h5>
+      <ul class="nav flex-row justify-content-between py-2">
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor1"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor2"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor3"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor4"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor5"></a></li>
+		     </ul>
+	  <ul class="nav flex-row justify-content-around py-2">
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor6"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor7"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor8"></a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filtercolor9"></a></li>
+      </ul>
+      </div>
+	
+	<div class="my-5">
+        <h5 class="text-dark py-2 fw-bold fs-5 text-start">Filter by Size</h5>
+        <ul class="nav flex-row justify-content-between py-2">
+			<li class="nav-item"><a href="#" class="nav-link filtersize text-dark pt-1">S</a></li>
+			<li class="nav-item"><a href="#" class="nav-link filtersize text-dark pt-1">M</a></li>
+			<li class="nav-item"><a href="#" class="nav-link filtersize text-dark pt-1">L</a></li>
+			   </ul>
+		<ul class="nav flex-row justify-content-around py-2">
+			<li class="nav-item"><a href="#" class="nav-link filtersize text-dark pt-1">XL</a></li>
+			<li class="nav-item"><a href="#" class="nav-link filtersize text-dark pt-1">XXL</a></li>
+			   </ul>
+      </div>
+	
+	<div class="my-5">
+        <h5 class="text-dark py-2 fw-bold fs-5 text-start">Filter by Material</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Cotton</a></li>
+          <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Denim</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Elastane</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Polyester</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Satin</a></li>
+          <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Silk</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Velvet</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Wool</a></li>
+        </ul>
+      </div>
+	
+	<div class="my-5">
+        <h5 class="text-dark py-2 fw-bold fs-5 text-start">Filter by Style</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Glamorous</a></li>
+          <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Glamorous</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Chic</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Sophisticated</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Trendy</a></li>
+          <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Dramatic</a></li>
+		  <li class="nav-item"><a href="#" class="nav-link filterCate"><img src="images/Icons/Ellipse%202.png" alt="" class="pe-2 pb-1">Natural</a></li>
+        </ul>
+      </div>
+	
+	<!-- InstanceBeginEditable name="review" -->
+	<div class="my-5">
+        <h5 class="text-dark py-2 fw-bold fs-5 text-start">Recent reviews</h5>
+		<div class="row py-2">
+			<div class="col-lg-4 text-center text-lg-start">
+				<a href="#"><img src="images/Figma/Recent reviews/Skirt-review (1).jpg" alt=""></a>
+			</div>
+			<div class="col-lg-8 text-center text-lg-center text-xl-start">
+				<p class="ps-3 m-0">Timeless, classic design!</p>
+				<i class="fas fa-startext-warning ps-3"></i>
+				<i class="fas fa-star text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<p class="ps-3 m-0">Sep 11, 2022</p>
+				<p class="ps-3">by Alexandra</p>
+			</div>
+		</div>
+		<div class="row py-2">
+			<div class="col-lg-4 text-center text-lg-start">
+				<a href="#"><img src="images/Figma/Recent reviews/Skirt-review (2).jpg" alt=""></a>
+			</div>
+			<div class="col-lg-8 text-center text-lg-center text-xl-start">
+				<p class="ps-3 m-0">Modern, versatile watch</p>
+				<i class="fas fa-star ps-3 text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<p class="ps-3 m-0">Sep 10, 2022</p>
+				<p class="ps-3">by Victory</p>
+			</div>
+		</div>
+		<div class="row py-2">
+			<div class="col-lg-4 text-center text-lg-start">
+				<a href="#"><img src="images/Figma/Recent reviews/Skirt-review (3).jpg" alt=""></a>
+			</div>
+			<div class="col-lg-8 text-center text-lg-center text-xl-start">
+				<p class="ps-3 m-0">Unique color & design!</p>
+				<i class="fas fa-star ps-3 text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<i class="fas fa-star text-warning"></i>
+				<p class="ps-3 m-0">Oct 01, 2022</p>
+				<p class="ps-3">by Anna</p>
+			</div>
+		</div>
+      </div>
+<!-- InstanceEndEditable -->
+	  </aside>
+	
+<!-- InstanceBeginEditable name="content" -->
+<main class="col-md-9 h-100">
+		  <!--<div class="carousel slide" id="banner2" data-bs-ride="carousel">
+			<div class="carousel-inner">
+			<div class="carousel-item active position-relative">-->
+		  <div class="row">
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Products/Skirt (1).jpg" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Flower Skirt</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end"><span class="text-decoration-line-through text-black-50">$125</span> $75</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Products/Skirt (3).jpg" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Brown Skirt</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$60</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Products/Skirt (2).jpg" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Short Skirt</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$360</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+	<!--het-row-sanpham-->
+			<!--<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (9).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Seagrass Bag</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$225</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4-4.jpg" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Glasses</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$60</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (10).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Daisy Dress</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$360</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>-->
+	<!--het-row-sanpham-->
+		<!--	<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (7).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Seagrass Bag</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$225</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (11).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Glasses</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end"><span class="text-decoration-line-through text-black-50">$125</span> $75</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (12).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Daisy Dress</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$360</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>-->
+	<!--het-row-sanpham-->
+			<!--<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4-4.jpg" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Seagrass Bag</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$225</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (6).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Glasses</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end"><span class="text-decoration-line-through text-black-50">$125</span> $75</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (4).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Daisy Dress</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$360</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>-->
+			  
+		</div>
+	<!--</div>-->
+	<!--het-row-sanpham-->
+				
+<!--<div class="carousel-item position-relative" >		
+	<div class="row">
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (4).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Seagrass Bag</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end"><span class="text-decoration-line-through text-black-50">$125</span> $75</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (5).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Glasses</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$60</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-6 col-lg-4 sanpham">
+				<img src="images/Figma/Rectangle 4 (6).png" alt="" class="w-100">
+				<div class="sanpham-hover">
+					<a href="#" class="me-5 icon-view"><i class="fas fa-cart-shopping"></i></a>
+					<a href="#" class="me-5 icon-view"><i class="fas fa-heart"></i></a>
+					<a href="#" class="icon-view"><i class="fas fa-eye"></i></a>
+				</div>
+				<div class="row">
+				<div class="col-7 pe-0"><p class="m-0 fw-bolder">Daisy Dress</p></div>
+				<div class="col-5 ps-0 fw-bolder"><p class="m-0 text-end ps-0">$360</p></div>
+				</div>
+				<div class="row mb-4">
+				<div class="col-6 pe-0"><h6 class="m-0">Hello Summer</h6></div>
+				<div class="col-6 m-0 text-end ps-0">
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-white"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+</div>-->
+
+		<!--<div class="carousel-indicators">
+			<button type="button" data-bs-target="#banner2" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#banner2" data-bs-slide-to="1"></button>
+		</div> 
+	</div>-->
+	  </main>
+	     </div>
+	        </div>
+	  
+	  
+	<!-- InstanceEndEditable -->
+	
+	<footer class="bg-footer">
+	<div class="container py-5">
+        <div class="row justify-content-between text-center text-md-start">
+           <div class="col-md-6 col-lg-3">
+			   <h4 class="mt-3 mb-3 fw-bold fs-4">LY’S HOUSE</h4>
+                <p class="mt-1 mb-3">LY’S HOUSE is a global fashion and lifestyle e-retailer committed to making the beauty of fashion accessible to all.</p>
+			    <p class="footer-icon">
+				<a href="#" class="me-2"><img src="images/Icons/facebook-circled-50%201.png" alt=""></a>
+				<a href="#" class="me-2"><img src="images/Icons/icons8-instagram-50%201.png" alt=""></a>
+				<a href="#" class="me-2"><img src="images/Icons/icons8-tiktok-50%201.png" alt=""></a>
+				<a href="#" class="me-2"><img src="images/Icons/icons8-zalo-50%201.png" alt=""></a>
+			 </p>
+          </div>
+            <div class="col-md-6 col-lg-4 ps-2">
+				<h4 class="mt-3 mb-3 fw-bold fs-4">CONTACT US</h4>
+				<p class="my-1"><img src="images/Icons/icons8-location-50%201.png" alt="" class="pe-2">44 Nguyễn Đình Chiểu, P.5, Q.3, Hồ Chí Minh</p>
+				<p class="my-1"><img src="images/Icons/icons8-mail-50%201.png" alt="" class="pe-2">cskh@lyshouse.com</p>
+				<p class="my-1"><img src="images/Icons/icons8-phone-50%201.png" alt="" class="pe-2">+ 084 969 666 9999</p>
+				<p class="my-1"><img src="images/Icons/icons8-fax-80%201.png" alt="" class="pe-2">9-282-355-9874</p>
+            </div>
+             <div class="col-md-6 col-lg-3">
+				 <h4 class="mt-3 mb-3 fw-bold fs-4">HELP & INFORMATION</h4>
+			<div class=" row help">
+				 <a href="#" class="mt-1 mb-2 text-decoration-none text-dark">Customer policy</a>
+				 <a href="#" class="mt-1 mb-2 text-decoration-none text-dark">Payment policy</a>
+				 <a href="#" class="mt-1 mb-2 text-decoration-none text-dark">Delivery & returns</a>
+				 <a href="#" class="mt-1 mb-2 text-decoration-none text-dark">FAQ</a>
+				 </div>
+            </div>
+			<div class="col-md-6 col-lg-2">
+				<h4 class="mt-3 mb-3 fw-bold fs-4">PAYMENT</h4>
+				<a href="#" class="me-2"><img src="images/Icons/external-atm-card.png" alt=""></a>
+				<a href="#" class="me-2"><img src="images/Icons/external-economy.png" alt=""></a>
+            </div>
+        </div> 
+	</div>
+</footer>
+	<!--het footer-->
+	
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/photo-viewer.js"></script>
+<script src="js/custom.js"></script>
+	
+</body>
+<!-- InstanceEnd --></html>
